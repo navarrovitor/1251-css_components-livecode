@@ -1,0 +1,42 @@
+.plans-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plans-info {
+  text-align: center;
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  width: 220px;
+}
+
+.plans-info p {
+  font-size: 14px;
+  color: gray;
+}
+
+.plans-info h2 {
+  font-weight: lighter;
+  color: blue;
+}
+
+.plans-info ul {
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.plans-info:hover {
+  background-color: blue;
+  color: white;
+  transition: 0.3s;
+}
+
+.plans-info:hover p,
+.plans-info:hover h2 {
+  color: white;
+  font-weight: bold;
+}
